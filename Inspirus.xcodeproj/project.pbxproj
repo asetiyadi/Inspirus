@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB48BCED1B5AFF4D0030870F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB48BCEC1B5AFF4D0030870F /* AppDelegate.swift */; };
+		DB48BCEF1B5AFF4D0030870F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB48BCEE1B5AFF4D0030870F /* ViewController.swift */; };
+		DB48BCF21B5AFF4D0030870F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB48BCF01B5AFF4D0030870F /* Main.storyboard */; };
+		DB48BCF41B5AFF4D0030870F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB48BCF31B5AFF4D0030870F /* Images.xcassets */; };
+		DB48BCF71B5AFF4D0030870F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB48BCF51B5AFF4D0030870F /* LaunchScreen.xib */; };
+		DB48BD031B5AFF4D0030870F /* InspirusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB48BD021B5AFF4D0030870F /* InspirusTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB48BCFD1B5AFF4D0030870F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB48BCDF1B5AFF4D0030870F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB48BCE61B5AFF4D0030870F;
+			remoteInfo = Inspirus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB48BCE71B5AFF4D0030870F /* Inspirus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Inspirus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB48BCEB1B5AFF4D0030870F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB48BCEC1B5AFF4D0030870F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB48BCEE1B5AFF4D0030870F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB48BCF11B5AFF4D0030870F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB48BCF31B5AFF4D0030870F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DB48BCF61B5AFF4D0030870F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DB48BCFC1B5AFF4D0030870F /* InspirusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InspirusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB48BD011B5AFF4D0030870F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB48BD021B5AFF4D0030870F /* InspirusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspirusTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB48BCE41B5AFF4D0030870F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB48BCF91B5AFF4D0030870F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB48BCDE1B5AFF4D0030870F = {
+			isa = PBXGroup;
+			children = (
+				DB48BCE91B5AFF4D0030870F /* Inspirus */,
+				DB48BCFF1B5AFF4D0030870F /* InspirusTests */,
+				DB48BCE81B5AFF4D0030870F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB48BCE81B5AFF4D0030870F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB48BCE71B5AFF4D0030870F /* Inspirus.app */,
+				DB48BCFC1B5AFF4D0030870F /* InspirusTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB48BCE91B5AFF4D0030870F /* Inspirus */ = {
+			isa = PBXGroup;
+			children = (
+				DB48BCEC1B5AFF4D0030870F /* AppDelegate.swift */,
+				DB48BCEE1B5AFF4D0030870F /* ViewController.swift */,
+				DB48BCF01B5AFF4D0030870F /* Main.storyboard */,
+				DB48BCF31B5AFF4D0030870F /* Images.xcassets */,
+				DB48BCF51B5AFF4D0030870F /* LaunchScreen.xib */,
+				DB48BCEA1B5AFF4D0030870F /* Supporting Files */,
+			);
+			path = Inspirus;
+			sourceTree = "<group>";
+		};
+		DB48BCEA1B5AFF4D0030870F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB48BCEB1B5AFF4D0030870F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB48BCFF1B5AFF4D0030870F /* InspirusTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB48BD021B5AFF4D0030870F /* InspirusTests.swift */,
+				DB48BD001B5AFF4D0030870F /* Supporting Files */,
+			);
+			path = InspirusTests;
+			sourceTree = "<group>";
+		};
+		DB48BD001B5AFF4D0030870F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB48BD011B5AFF4D0030870F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB48BCE61B5AFF4D0030870F /* Inspirus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB48BD061B5AFF4D0030870F /* Build configuration list for PBXNativeTarget "Inspirus" */;
+			buildPhases = (
+				DB48BCE31B5AFF4D0030870F /* Sources */,
+				DB48BCE41B5AFF4D0030870F /* Frameworks */,
+				DB48BCE51B5AFF4D0030870F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Inspirus;
+			productName = Inspirus;
+			productReference = DB48BCE71B5AFF4D0030870F /* Inspirus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB48BCFB1B5AFF4D0030870F /* InspirusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB48BD091B5AFF4D0030870F /* Build configuration list for PBXNativeTarget "InspirusTests" */;
+			buildPhases = (
+				DB48BCF81B5AFF4D0030870F /* Sources */,
+				DB48BCF91B5AFF4D0030870F /* Frameworks */,
+				DB48BCFA1B5AFF4D0030870F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB48BCFE1B5AFF4D0030870F /* PBXTargetDependency */,
+			);
+			name = InspirusTests;
+			productName = InspirusTests;
+			productReference = DB48BCFC1B5AFF4D0030870F /* InspirusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB48BCDF1B5AFF4D0030870F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Andi Setiyadi";
+				TargetAttributes = {
+					DB48BCE61B5AFF4D0030870F = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					DB48BCFB1B5AFF4D0030870F = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = DB48BCE61B5AFF4D0030870F;
+					};
+				};
+			};
+			buildConfigurationList = DB48BCE21B5AFF4D0030870F /* Build configuration list for PBXProject "Inspirus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB48BCDE1B5AFF4D0030870F;
+			productRefGroup = DB48BCE81B5AFF4D0030870F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB48BCE61B5AFF4D0030870F /* Inspirus */,
+				DB48BCFB1B5AFF4D0030870F /* InspirusTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB48BCE51B5AFF4D0030870F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB48BCF21B5AFF4D0030870F /* Main.storyboard in Resources */,
+				DB48BCF71B5AFF4D0030870F /* LaunchScreen.xib in Resources */,
+				DB48BCF41B5AFF4D0030870F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB48BCFA1B5AFF4D0030870F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB48BCE31B5AFF4D0030870F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB48BCEF1B5AFF4D0030870F /* ViewController.swift in Sources */,
+				DB48BCED1B5AFF4D0030870F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB48BCF81B5AFF4D0030870F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB48BD031B5AFF4D0030870F /* InspirusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB48BCFE1B5AFF4D0030870F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB48BCE61B5AFF4D0030870F /* Inspirus */;
+			targetProxy = DB48BCFD1B5AFF4D0030870F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB48BCF01B5AFF4D0030870F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB48BCF11B5AFF4D0030870F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB48BCF51B5AFF4D0030870F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB48BCF61B5AFF4D0030870F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB48BD041B5AFF4D0030870F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB48BD051B5AFF4D0030870F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB48BD071B5AFF4D0030870F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Inspirus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB48BD081B5AFF4D0030870F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Inspirus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DB48BD0A1B5AFF4D0030870F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = InspirusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Inspirus.app/Inspirus";
+			};
+			name = Debug;
+		};
+		DB48BD0B1B5AFF4D0030870F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = InspirusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Inspirus.app/Inspirus";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB48BCE21B5AFF4D0030870F /* Build configuration list for PBXProject "Inspirus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB48BD041B5AFF4D0030870F /* Debug */,
+				DB48BD051B5AFF4D0030870F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB48BD061B5AFF4D0030870F /* Build configuration list for PBXNativeTarget "Inspirus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB48BD071B5AFF4D0030870F /* Debug */,
+				DB48BD081B5AFF4D0030870F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB48BD091B5AFF4D0030870F /* Build configuration list for PBXNativeTarget "InspirusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB48BD0A1B5AFF4D0030870F /* Debug */,
+				DB48BD0B1B5AFF4D0030870F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB48BCDF1B5AFF4D0030870F /* Project object */;
+}
