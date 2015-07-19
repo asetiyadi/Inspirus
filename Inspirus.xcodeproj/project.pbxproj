@@ -19,6 +19,7 @@
 		DB48BD161B5B03F00030870F /* image4.png in Resources */ = {isa = PBXBuildFile; fileRef = DB48BD101B5B03F00030870F /* image4.png */; };
 		DB48BD171B5B03F00030870F /* image5.png in Resources */ = {isa = PBXBuildFile; fileRef = DB48BD111B5B03F00030870F /* image5.png */; };
 		DB48BD181B5B03F00030870F /* image6.png in Resources */ = {isa = PBXBuildFile; fileRef = DB48BD121B5B03F00030870F /* image6.png */; };
+		DBD4FAE21B5B74D800B32F14 /* Quotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD4FAE11B5B74D800B32F14 /* Quotes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		DB48BD101B5B03F00030870F /* image4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image4.png; sourceTree = "<group>"; };
 		DB48BD111B5B03F00030870F /* image5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image5.png; sourceTree = "<group>"; };
 		DB48BD121B5B03F00030870F /* image6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image6.png; sourceTree = "<group>"; };
+		DBD4FAE11B5B74D800B32F14 /* Quotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quotes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 		DB48BCE91B5AFF4D0030870F /* Inspirus */ = {
 			isa = PBXGroup;
 			children = (
+				DBD4FAE01B5B74C800B32F14 /* model */,
 				DB48BD0C1B5B03F00030870F /* Images */,
 				DB48BCEE1B5AFF4D0030870F /* ViewController.swift */,
 				DB48BCF01B5AFF4D0030870F /* Main.storyboard */,
@@ -136,6 +139,14 @@
 				DB48BD121B5B03F00030870F /* image6.png */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		DBD4FAE01B5B74C800B32F14 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				DBD4FAE11B5B74D800B32F14 /* Quotes.swift */,
+			);
+			name = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +257,7 @@
 			files = (
 				DB48BCEF1B5AFF4D0030870F /* ViewController.swift in Sources */,
 				DB48BCED1B5AFF4D0030870F /* AppDelegate.swift in Sources */,
+				DBD4FAE21B5B74D800B32F14 /* Quotes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
