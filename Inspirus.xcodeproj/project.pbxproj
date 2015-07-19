@@ -13,6 +13,12 @@
 		DB48BCF41B5AFF4D0030870F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB48BCF31B5AFF4D0030870F /* Images.xcassets */; };
 		DB48BCF71B5AFF4D0030870F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB48BCF51B5AFF4D0030870F /* LaunchScreen.xib */; };
 		DB48BD031B5AFF4D0030870F /* InspirusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB48BD021B5AFF4D0030870F /* InspirusTests.swift */; };
+		DB48BD131B5B03F00030870F /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = DB48BD0D1B5B03F00030870F /* image1.png */; };
+		DB48BD141B5B03F00030870F /* image2.png in Resources */ = {isa = PBXBuildFile; fileRef = DB48BD0E1B5B03F00030870F /* image2.png */; };
+		DB48BD151B5B03F00030870F /* image3.png in Resources */ = {isa = PBXBuildFile; fileRef = DB48BD0F1B5B03F00030870F /* image3.png */; };
+		DB48BD161B5B03F00030870F /* image4.png in Resources */ = {isa = PBXBuildFile; fileRef = DB48BD101B5B03F00030870F /* image4.png */; };
+		DB48BD171B5B03F00030870F /* image5.png in Resources */ = {isa = PBXBuildFile; fileRef = DB48BD111B5B03F00030870F /* image5.png */; };
+		DB48BD181B5B03F00030870F /* image6.png in Resources */ = {isa = PBXBuildFile; fileRef = DB48BD121B5B03F00030870F /* image6.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,12 @@
 		DB48BCFC1B5AFF4D0030870F /* InspirusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InspirusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB48BD011B5AFF4D0030870F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB48BD021B5AFF4D0030870F /* InspirusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspirusTests.swift; sourceTree = "<group>"; };
+		DB48BD0D1B5B03F00030870F /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
+		DB48BD0E1B5B03F00030870F /* image2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image2.png; sourceTree = "<group>"; };
+		DB48BD0F1B5B03F00030870F /* image3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image3.png; sourceTree = "<group>"; };
+		DB48BD101B5B03F00030870F /* image4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image4.png; sourceTree = "<group>"; };
+		DB48BD111B5B03F00030870F /* image5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image5.png; sourceTree = "<group>"; };
+		DB48BD121B5B03F00030870F /* image6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image6.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +89,10 @@
 		DB48BCE91B5AFF4D0030870F /* Inspirus */ = {
 			isa = PBXGroup;
 			children = (
-				DB48BCEC1B5AFF4D0030870F /* AppDelegate.swift */,
+				DB48BD0C1B5B03F00030870F /* Images */,
 				DB48BCEE1B5AFF4D0030870F /* ViewController.swift */,
 				DB48BCF01B5AFF4D0030870F /* Main.storyboard */,
 				DB48BCF31B5AFF4D0030870F /* Images.xcassets */,
-				DB48BCF51B5AFF4D0030870F /* LaunchScreen.xib */,
 				DB48BCEA1B5AFF4D0030870F /* Supporting Files */,
 			);
 			path = Inspirus;
@@ -90,6 +101,8 @@
 		DB48BCEA1B5AFF4D0030870F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DB48BCF51B5AFF4D0030870F /* LaunchScreen.xib */,
+				DB48BCEC1B5AFF4D0030870F /* AppDelegate.swift */,
 				DB48BCEB1B5AFF4D0030870F /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -110,6 +123,19 @@
 				DB48BD011B5AFF4D0030870F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB48BD0C1B5B03F00030870F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DB48BD0D1B5B03F00030870F /* image1.png */,
+				DB48BD0E1B5B03F00030870F /* image2.png */,
+				DB48BD0F1B5B03F00030870F /* image3.png */,
+				DB48BD101B5B03F00030870F /* image4.png */,
+				DB48BD111B5B03F00030870F /* image5.png */,
+				DB48BD121B5B03F00030870F /* image6.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +219,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB48BCF21B5AFF4D0030870F /* Main.storyboard in Resources */,
+				DB48BD181B5B03F00030870F /* image6.png in Resources */,
+				DB48BD151B5B03F00030870F /* image3.png in Resources */,
+				DB48BD141B5B03F00030870F /* image2.png in Resources */,
+				DB48BD131B5B03F00030870F /* image1.png in Resources */,
+				DB48BD161B5B03F00030870F /* image4.png in Resources */,
+				DB48BD171B5B03F00030870F /* image5.png in Resources */,
 				DB48BCF71B5AFF4D0030870F /* LaunchScreen.xib in Resources */,
 				DB48BCF41B5AFF4D0030870F /* Images.xcassets in Resources */,
 			);
@@ -409,6 +441,7 @@
 				DB48BD081B5AFF4D0030870F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB48BD091B5AFF4D0030870F /* Build configuration list for PBXNativeTarget "InspirusTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +450,7 @@
 				DB48BD0B1B5AFF4D0030870F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
