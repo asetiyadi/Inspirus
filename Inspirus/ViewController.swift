@@ -16,7 +16,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var backImageView: UIImageView!
     
     
-    
     func showRandomQuote() {
         var quotes = Quotes();
         
@@ -51,6 +50,7 @@ class ViewController: UIViewController {
     @IBAction func inspireMeDidTap(sender: UIButton) {
         showRandomQuote()
         backImageView.image = randomImage()
+        sender.backgroundColor = randomColor()
     }
     
     func randomImage() -> UIImage {
@@ -61,6 +61,19 @@ class ViewController: UIViewController {
         }
         else {
             return UIImage(named: "image1")!
+        }
+    }
+    
+    func randomColor() -> UIColor {
+        let randomIndex = Int(arc4random()) % 5
+        
+        switch randomIndex {
+        case 0: return UIColor(red: 211/255.0, green: 123/255.0, blue: 235/255.0, alpha: 0.9)
+        case 1: return UIColor(red: 231/255.0, green: 122/255.0, blue: 211/255.0, alpha: 0.9)
+        case 2: return UIColor(red: 167/255.0, green: 189/255.0, blue: 223/255.0, alpha: 0.9)
+        case 3: return UIColor(red: 233/255.0, green: 234/255.0, blue: 209/255.0, alpha: 0.9)
+        case 4: return UIColor(red: 209/255.0, green: 198/255.0, blue: 177/255.0, alpha: 0.9)
+        default: return UIColor(red: 244/255.0, green: 178/255.0, blue: 33/255.0, alpha: 0.9)
         }
     }
 }
