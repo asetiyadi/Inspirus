@@ -41,6 +41,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="backImageView" destination="qJs-Ca-q28" id="hwe-bh-WpK"/>
                         <outlet property="quoteImage" destination="qJs-Ca-q28" id="6y8-d5-2nY"/>
                         <outlet property="quoteLabel" destination="YU0-en-2tV" id="Gd2-8m-Uus"/>
                     </connections>

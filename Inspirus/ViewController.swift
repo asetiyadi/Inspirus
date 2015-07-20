@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var quoteLabel: UILabel!
     
     @IBOutlet weak var quoteImage: UIImageView!
+    @IBOutlet weak var backImageView: UIImageView!
     
     
     
@@ -49,6 +50,18 @@ class ViewController: UIViewController {
     //Connection between button and viewController
     @IBAction func inspireMeDidTap(sender: UIButton) {
         showRandomQuote()
+        backImageView.image = randomImage()
+    }
+    
+    func randomImage() -> UIImage {
+        let randomIndex = Int(arc4random()) % 7
+        
+        if let image = UIImage(named: "image\(randomIndex)") {
+            return image
+        }
+        else {
+            return UIImage(named: "image1")!
+        }
     }
 }
 
